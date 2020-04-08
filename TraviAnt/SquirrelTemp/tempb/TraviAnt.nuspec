@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TraviAnt</id>
+    <version>1.0.1</version>
+    <title>TraviAnt Deployment</title>
+    <authors>Saisama</authors>
+    <owners>Saisama</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Travian game helper which automates tasks.</description>
+    <summary>
+    </summary>
+  </metadata>
+</package>

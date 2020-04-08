@@ -1,0 +1,7 @@
+﻿0. Uncomment Update method from Program.cs and increment versioning
+1. Change to debug mode
+2. build
+3. package
+4. relasify
+5. exclude old versions from RELEASES file
+6. upload files to github as a new release
