@@ -18,6 +18,7 @@ namespace TraviAnt
         [STAThread]
         static void Main()
         {
+            AppUpdater.RunUpdater();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -27,14 +28,7 @@ namespace TraviAnt
             CertMaker.trustRootCert();
             StartBrowserProxy();
 
-            RunUpdater();
-
-            LoginForm loginForm = new LoginForm();
-            if (loginForm.ShowDialog() == DialogResult.OK)
-            {
-                Application.Run(new Form1());
-                loginForm.Close();
-            }
+            Application.Run(new Form1());
         }
 
         public static void StartBrowserProxy()

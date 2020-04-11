@@ -14,7 +14,7 @@ namespace TraviAnt
     public class HTTP
     {
         public static CookieContainer cookie = new CookieContainer();
-        public static WebProxy fiddlerProxy = new WebProxy("127.0.0.1:8888", false);
+        public static WebProxy fiddlerProxy = new WebProxy("127.0.0.1:7777", false);
 
         public static bool PostRequest(string url, CookieCollection reqcookies, Dictionary<string, string> getParams,
             Dictionary<string, string> postParams, ref CookieCollection respcookies)
